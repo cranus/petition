@@ -1,0 +1,8 @@
+<f:translate key="LLL:EXT:petition/Resources/Private/Language/locallang.xml:tx_petition_email_start">Hello,
+
+you just subscribed a petition. Please click the link below to confirm, that you wanted to subscribe. If you do not click the button, your vote cannot be registered.</f:translate>
+{link}
+
+<f:translate key="LLL:EXT:petition/Resources/Private/Language/locallang.xml:tx_petition_email_stop">Have a nice Day,
+
+Petition Service</f:translate>

@@ -1,0 +1,23 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+    <h1 class="list"><f:translate key="tx_petition_list_title">Petition List</f:translate></h1>
+        <f:if condition="{entries}">
+            <f:widget.paginate objects="{entries}" as="entries_" configuration="{itemsPerPage: 30, insertAbove: 1, insertBelow: 1}">
+                <div class="petitionsListTable">
+                    <div class="row">
+                        <div class="name head cell"><f:translate key="tx_petition_list_name">Subscriber Name</f:translate></div>
+                        <div class="date head cell"><f:translate key="tx_petition_list_place">Subscribe Location</f:translate></div>
+                        <div class="date head cell"><f:translate key="tx_petition_list_date">Subscribe Date</f:translate></div>
+                    </div>
+                    <f:for each="{entries_}" as="entry">
+                        <div class="row">
+                            <div class="name cell">{entry.firstname} {entry.lastname}</div>
+                            <div class="name cell">{entry.country}, {entry.town}</div>
+                            <div class="date cell"><f:format.date format="d.m.Y">{entry.tstamp}</f:format.date></div>
+                        </div>
+                    </f:for>
+                </div>
+            </f:widget.paginate> 
+        </f:if>
+</f:section>

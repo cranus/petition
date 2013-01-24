@@ -1,0 +1,45 @@
+
+<T3locallang>
+    <meta type="array">
+        <description>Context Sensitive Help (CSH) for table tx_petition_domain_model_petitionsentry</description>
+        <type>CSH</type>
+        <csh_table>tx_petition_domain_model_petitionsentry</csh_table>
+    </meta>
+    <data type="array">
+        
+        <languageKey index="default" type="array">
+            <label index="firstname.description">firstname</label>
+            <label index="lastname.description">lastname</label>
+            <label index="emailadress.description">emailadress</label>
+            <label index="country.description">country</label>
+            <label index="town.description">town</label>
+            <label index="zip.description">zip</label>
+            <label index="street.description">street</label>
+            <label index="petition.description">petition</label>
+        </languageKey>
+            
+        <languageKey index="de" type="array">
+            <label index="firstname.description">Vorname</label>
+            <label index="lastname.description">Nachname</label>
+            <label index="emailadress.description">Mailadresse</label>
+            <label index="country.description">Land</label>
+            <label index="town.description">Stadt</label>
+            <label index="zip.description">PLZ</label>
+            <label index="street.description">Strasse</label>
+            <label index="petition.description">Petition</label>
+        </languageKey>
+        
+        <languageKey index="fr" type="array">
+		   
+            <label index="firstname.description">Prénom</label>
+            <label index="lastname.description">Nom</label>
+            <label index="emailadress.description">Adresse électronique</label>
+            <label index="country.description">Pays</label>
+            <label index="town.description">Ville</label>
+            <label index="zip.description">CP</label>
+            <label index="street.description">Rue</label>
+            <label index="petition.description">Pétition</label>
+        </languageKey>	
+        
+    </data>
+</T3locallang>

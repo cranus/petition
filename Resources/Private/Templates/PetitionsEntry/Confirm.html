@@ -1,0 +1,12 @@
+<f:layout name="Default" />
+<f:section name="main">
+    <h1 class="confirm"><f:translate key="tx_petition_createform_confirm">Confirm</f:translate></h1>
+    <f:if condition="{status} == 1">
+        <f:then>
+            <p><f:translate key="tx_petition_createform_confirmsuccess">Thanks for subscribing.</f:translate></p>
+        </f:then>
+        <f:else>
+            <p><f:translate key="tx_petition_createform_confirmerror">Oooppps, an error occured.</f:translate></p>
+        </f:else>
+    </f:if>
+</f:section>

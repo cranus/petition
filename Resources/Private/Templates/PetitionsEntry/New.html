@@ -1,0 +1,38 @@
+<f:layout name="Default" />
+<f:section name="main">
+    <h1 class="new"><f:translate key="tx_petition_createform_title">Create New Entry</f:translate></h1>
+    <f:form action="create" class="create" name="newPetitionsEntry" object="{newPetitionsEntry}">
+        <div>
+            <label id="firstname_{formIDSafe}"><f:translate key="tx_petition_createform_firstname">Firstname</f:translate></label>
+            <f:form.textfield id="firstname_{formIDSafe}" property="firstname" value="" />
+        </div>
+        <div>
+            <label id="lastname_{formIDSafe}"><f:translate key="tx_petition_createform_lastname">Lastname</f:translate></label>
+            <f:form.textfield id="lastname_{formIDSafe}" property="lastname" value="" />
+        </div>
+        <div>
+            <label id="emailadress_{formIDSafe}"><f:translate key="tx_petition_createform_emailadress">Email</f:translate></label>
+            <f:form.textfield id="emailadress_{formIDSafe}" property="emailadress" value="" />
+        </div>
+        <div>
+            <label id="country_{formIDSafe}"><f:translate key="tx_petition_createform_country">Country</f:translate></label>
+            <f:form.textfield id="country_{formIDSafe}" property="country" value="" />
+        </div>
+        <div>
+            <label id="town_{formIDSafe}"><f:translate key="tx_petition_createform_town">Town</f:translate></label>
+            <f:form.textfield id="town_{formIDSafe}" property="town" value="" />
+        </div>
+        <div>
+            <label id="zip_{formIDSafe}"><f:translate key="tx_petition_createform_zip">Zip-Code</f:translate></label>
+            <f:form.textfield id="zip_{formIDSafe}" property="zip" value="" />
+        </div>
+        <div>
+            <label id="street_{formIDSafe}"><f:translate key="tx_petition_createform_street">Street</f:translate></label>
+            <f:form.textfield id="street_{formIDSafe}" property="street" value="" />
+        </div>
+        <div>
+            <label id="createSubmit_{formIDSafe}" class="hidden"><f:translate key="tx_petition_createform_submit">Submit</f:translate></label>
+            <f:form.submit id="createSubmit_{formIDSafe}" value="{f:translate(key:'tx_petition_createform_submit')}" />
+        </div>
+    </f:form>
+</f:section>

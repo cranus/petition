@@ -1,0 +1,154 @@
+
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for the Petition extension in the FRONTEND</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_petition_domain_model_petitionsentry">PetitionsEntry</label>
+            <label index="tx_petition_domain_model_petitionsentry.firstname">firstname</label>
+            <label index="tx_petition_domain_model_petitionsentry.lastname">lastname</label>
+            <label index="tx_petition_domain_model_petitionsentry.emailadress">emailadress</label>
+            <label index="tx_petition_domain_model_petitionsentry.country">country</label>
+            <label index="tx_petition_domain_model_petitionsentry.town">town</label>
+            <label index="tx_petition_domain_model_petitionsentry.zip">zip</label>
+            <label index="tx_petition_domain_model_petitionsentry.street">street</label>
+            <label index="tx_petition_domain_model_petitionsentry.petition">petition</label>
+            <label index="tx_petition_domain_model_petition">Petition</label>
+            <label index="tx_petition_domain_model_petition.title">title</label>
+                        
+            <label index="tx_petition_list_title">Petition List</label>
+            <label index="tx_petition_list_name">Subscriber Name</label>
+            <label index="tx_petition_list_place">Subscriber Location</label>
+            <label index="tx_petition_list_date">Subscribe Date</label>
+                         
+            <label index="tx_petition_createform_confirm">Confirm</label>
+            <label index="tx_petition_createform_confirmsuccess">Thanks for subscribing.</label>
+            <label index="tx_petition_createform_confirmerror">An error occured, please try again.</label>
+                         
+            <label index="tx_petition_count_title">Counter</label>
+            <label index="tx_petition_count_text_before">Right now there are</label>
+            <label index="tx_petition_count_text_after">Petitions entries!</label>
+                         
+            <label index="tx_petition_success_title">Success</label>
+            <label index="tx_petition_success_message">You just got a message in your mailbox. Please check it and follow the steps.</label>
+		
+            <label index="tx_petition_email_start">Hello,
+
+you just subscribed a petition. Please click the link below to confirm, that you wanted to subscribe. If you do not click the button, your vote cannot be registered.
+            </label>
+            <label index="tx_petition_email_stop">Have a nice Day,
+
+Petition Service
+            </label>
+
+            <label index="tx_petition_createform_title">Create New Entry</label>
+            <label index="tx_petition_createform_firstname">Firstname</label>
+            <label index="tx_petition_createform_lastname">Lastname</label>
+            <label index="tx_petition_createform_emailadress">Email</label>
+            <label index="tx_petition_createform_country">Country</label>
+            <label index="tx_petition_createform_town">Town</label>
+            <label index="tx_petition_createform_zip">Zip-Code</label>
+            <label index="tx_petition_createform_street">Street</label>
+            <label index="tx_petition_createform_submit">Submit</label>
+        </languageKey>
+            
+        <languageKey index="fr" type="array">
+            <label index="tx_petition_domain_model_petitionsentry">Je signe cette pétition !</label>
+            <label index="tx_petition_domain_model_petitionsentry.firstname">Prénom</label>
+            <label index="tx_petition_domain_model_petitionsentry.lastname">Nom</label>
+            <label index="tx_petition_domain_model_petitionsentry.emailadress">adresse électronique</label>
+            <label index="tx_petition_domain_model_petitionsentry.country">Pays</label>
+            <label index="tx_petition_domain_model_petitionsentry.town">Ville</label>
+            <label index="tx_petition_domain_model_petitionsentry.zip">CP</label>
+            <label index="tx_petition_domain_model_petitionsentry.street">Rue</label>
+            <label index="tx_petition_domain_model_petitionsentry.petition">Pétition</label>
+            <label index="tx_petition_domain_model_petition">Pétition</label>
+            <label index="tx_petition_domain_model_petition.title">Titre</label>
+                        
+            <label index="tx_petition_list_title">Liste des signataires</label>
+            <label index="tx_petition_list_name">Nom</label>
+            <label index="tx_petition_list_place">Lieu</label>
+            <label index="tx_petition_list_date">Date de signature</label>
+                         
+            <label index="tx_petition_createform_confirm">OK; envoyer</label>
+            <label index="tx_petition_createform_confirmsuccess">Merci pour votre signature</label>
+            <label index="tx_petition_createform_confirmerror">Erreur. Merci de recommencer</label>
+                         
+            <label index="tx_petition_count_title">Compteur</label>
+            <label index="tx_petition_count_text_before">Les voici !</label>
+            <label index="tx_petition_count_text_after">Liste des signataires</label>
+                         
+            <label index="tx_petition_success_title">Merci!</label>
+            <label index="tx_petition_success_message">Vous allez recevoir un message par mél, pour confirmer votre signature.</label>
+		
+            <label index="tx_petition_email_start">Bonjour,
+
+Vous venez de signer une pétition. Merci de confirmer votre signature en cliquant sur le lien ci-dessous, pour confirmer votre identité.
+            </label>
+            <label index="tx_petition_email_stop">Nous vous souhaitons une bonne journée,
+
+Le service Pétition
+            </label>
+
+            <label index="tx_petition_createform_title">Ajouter une signature</label>
+            <label index="tx_petition_createform_firstname">Vorname</label>
+            <label index="tx_petition_createform_lastname">Nom</label>
+            <label index="tx_petition_createform_emailadress">adresse électronique</label>
+            <label index="tx_petition_createform_country">Payes</label>
+            <label index="tx_petition_createform_town">Ville</label>
+            <label index="tx_petition_createform_zip">CP</label>
+            <label index="tx_petition_createform_street">Rue</label>
+            <label index="tx_petition_createform_submit">OK - envoyer</label>
+        </languageKey>	
+        <languageKey index="de" type="array">
+            <label index="tx_petition_domain_model_petitionsentry">Petition</label>
+            <label index="tx_petition_domain_model_petitionsentry.firstname">Vorname</label>
+            <label index="tx_petition_domain_model_petitionsentry.lastname">nachname</label>
+            <label index="tx_petition_domain_model_petitionsentry.emailadress">Mailadresse</label>
+            <label index="tx_petition_domain_model_petitionsentry.country">Land</label>
+            <label index="tx_petition_domain_model_petitionsentry.town">Stadt</label>
+            <label index="tx_petition_domain_model_petitionsentry.zip">PLZ</label>
+            <label index="tx_petition_domain_model_petitionsentry.street">Strasse</label>
+            <label index="tx_petition_domain_model_petitionsentry.petition">Petition</label>
+            <label index="tx_petition_domain_model_petition">Petition</label>
+            <label index="tx_petition_domain_model_petition.title">Titel</label>
+                        
+            <label index="tx_petition_list_title">Petitions-Liste</label>
+            <label index="tx_petition_list_name">Name</label>
+            <label index="tx_petition_list_place">Ort</label>
+            <label index="tx_petition_list_date">Datum der Unterschrift</label>
+                         
+            <label index="tx_petition_createform_confirm">OK - abschicken</label>
+            <label index="tx_petition_createform_confirmsuccess">Danke für Ihre Beteiligung.</label>
+            <label index="tx_petition_createform_confirmerror">Fehler. Bitte Daten erneut erfassen.</label>
+                         
+            <label index="tx_petition_count_title">Zähler</label>
+            <label index="tx_petition_count_text_before">Aktueller Stand</label>
+            <label index="tx_petition_count_text_after">Unterschriften!</label>
+                         
+            <label index="tx_petition_success_title">Ihre Unterschrift ist eingegangen</label>
+            <label index="tx_petition_success_message">Sie erhalten nun eine e-mail. Bitte folgen Sie den Anweisungen darin, um Ihre Unterschrift zu bestätigen.</label>
+		
+            <label index="tx_petition_email_start">Guten Tag,
+
+Sie haben eben eine Petition unterzeichnet. Bitte klicken Sie auf den untenstehenden Link, um Ihre Identität zu bestätigen, da andernfalls Ihre Unterschrift nicht gezählt wird.
+            </label>
+            <label index="tx_petition_email_stop">Einen schönen Tag noch !
+
+Die Abteilung Petitionen
+            </label>
+
+            <label index="tx_petition_createform_title">Ich unterschreibe!</label>
+            <label index="tx_petition_createform_firstname">Vorname</label>
+            <label index="tx_petition_createform_lastname">Nachname</label>
+            <label index="tx_petition_createform_emailadress">E-mail</label>
+            <label index="tx_petition_createform_country">Land</label>
+            <label index="tx_petition_createform_town">Stadt</label>
+            <label index="tx_petition_createform_zip">PLZ</label>
+            <label index="tx_petition_createform_street">Strasse</label>
+            <label index="tx_petition_createform_submit">OK - Abschicken</label>
+        </languageKey>
+    </data>
+</T3locallang>

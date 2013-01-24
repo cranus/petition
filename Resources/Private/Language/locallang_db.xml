@@ -1,0 +1,87 @@
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields belonging to extension 'petition'</description>
+	</meta>
+        <data type="array">
+            <languageKey index="default" type="array">
+            
+                <label index="tx_petition_domain_model_petitionsentry">Petitions Entry</label>
+                <label index="tx_petition_domain_model_petitionsentry.firstname">Firstname</label>
+                <label index="tx_petition_domain_model_petitionsentry.lastname">Lastname</label>
+                <label index="tx_petition_domain_model_petitionsentry.emailadress">Emailadress</label>
+                <label index="tx_petition_domain_model_petitionsentry.country">Country</label>
+                <label index="tx_petition_domain_model_petitionsentry.town">Town</label>
+                <label index="tx_petition_domain_model_petitionsentry.zip">Zip</label>
+                <label index="tx_petition_domain_model_petitionsentry.street">Street</label>
+                <label index="tx_petition_domain_model_petitionsentry.petition">Petition</label>
+                <label index="tx_petition_domain_model_petitionsentry.message">Message</label>
+
+                <label index="tx_petition_domain_model_petition">Petition</label>
+                <label index="tx_petition_domain_model_petition.title">Title</label>
+                        
+                <label index="tx_petition_flexform_title">Petition</label>
+                <label index="tx_petition_flexform_controller">Select View</label>
+                <label index="tx_petition_flexform_petition">Related Petition</label>
+                <label index="tx_petition_flexform_createAction">Create Form</label>
+                <label index="tx_petition_flexform_countAction">Show Counter</label>
+                <label index="tx_petition_flexform_listAction">Show List</label>
+                <label index="tx_petition_flexform_fromname">Emailsenders Name</label>
+                <label index="tx_petition_flexform_fromemail">Emailsenders Email</label>
+                <label index="tx_petition_flexform_fromheadline">Email Headline</label>
+            </languageKey>
+            
+            <languageKey index="de" type="array">   
+                <label index="tx_petition_domain_model_petitionsentry">Erfasste Daten</label>
+                <label index="tx_petition_domain_model_petitionsentry.firstname">Vorname</label>
+                <label index="tx_petition_domain_model_petitionsentry.lastname">Name</label>
+                <label index="tx_petition_domain_model_petitionsentry.emailadress">Mailadresse</label>
+                <label index="tx_petition_domain_model_petitionsentry.country">Land</label>
+                <label index="tx_petition_domain_model_petitionsentry.town">Stadt</label>
+                <label index="tx_petition_domain_model_petitionsentry.zip">PLZ</label>
+                <label index="tx_petition_domain_model_petitionsentry.street">Strasse</label>
+                <label index="tx_petition_domain_model_petitionsentry.petition">Petition</label>
+                <label index="tx_petition_domain_model_petitionsentry.message">Nachricht</label>
+
+                <label index="tx_petition_domain_model_petition">Petition</label>
+                <label index="tx_petition_domain_model_petition.title">Titel</label>
+                        
+                <label index="tx_petition_flexform_title">Petition</label>
+                <label index="tx_petition_flexform_controller">Auswahl der Anzeige</label>
+                <label index="tx_petition_flexform_petition">Betrifft Petition</label>
+                <label index="tx_petition_flexform_createAction">Formularerzeugung</label>
+                <label index="tx_petition_flexform_countAction">mit Zähler</label>
+                <label index="tx_petition_flexform_listAction">mit Liste</label>
+                <label index="tx_petition_flexform_fromname">Name des Absenders</label>
+                <label index="tx_petition_flexform_fromemail">Mailadresse des Absenders</label>
+                <label index="tx_petition_flexform_fromheadline">Betreffzeile</label>
+            </languageKey>
+            
+            <languageKey index="fr" type="array">
+            
+                <label index="tx_petition_domain_model_petitionsentry">Données saisies</label>
+                <label index="tx_petition_domain_model_petitionsentry.firstname">Prénom</label>
+                <label index="tx_petition_domain_model_petitionsentry.lastname">Nom</label>
+                <label index="tx_petition_domain_model_petitionsentry.emailadress">Adresse mail</label>
+                <label index="tx_petition_domain_model_petitionsentry.country">Pays</label>
+                <label index="tx_petition_domain_model_petitionsentry.town">Ville</label>
+                <label index="tx_petition_domain_model_petitionsentry.zip">CP</label>
+                <label index="tx_petition_domain_model_petitionsentry.street">Rue</label>
+                <label index="tx_petition_domain_model_petitionsentry.petition">Pétition</label>
+                <label index="tx_petition_domain_model_petitionsentry.message">Message</label>
+
+                <label index="tx_petition_domain_model_petition">Pétition</label>
+                <label index="tx_petition_domain_model_petition.title">Titre</label>
+                        
+                <label index="tx_petition_flexform_title">Pétition</label>
+                <label index="tx_petition_flexform_controller">Select View</label>
+                <label index="tx_petition_flexform_petition">Pétition concernée</label>
+                <label index="tx_petition_flexform_createAction">Création de formulaire</label>
+                <label index="tx_petition_flexform_countAction">Afficher le compteur</label>
+                <label index="tx_petition_flexform_listAction">Afficher la liste</label>
+                <label index="tx_petition_flexform_fromname">Nom de l'expéditeur</label>
+                <label index="tx_petition_flexform_fromemail">Adresse mail de l'expéditeur</label>
+                <label index="tx_petition_flexform_fromheadline">Intitulé du mail de confirmation</label>
+            </languageKey>
+        </data>
+    </T3locallang>

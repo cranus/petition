@@ -1,0 +1,22 @@
+<T3locallang>
+    <meta type="array">
+        <description>Context Sensitive Help (CSH) for table tx_petition_domain_model_petition</description>
+        <type>CSH</type>
+        <csh_table>tx_petition_domain_model_petition</csh_table>
+	</meta>
+        <data type="array">
+            
+            <languageKey index="default" type="array">
+                <label index="title.description">title</label>
+            </languageKey>
+            
+            <languageKey index="de" type="array">
+                <label index="title.description">Titel</label>
+            </languageKey>
+            
+            <languageKey index="fr" type="array">
+                <label index="title.description">Titre</label>
+            </languageKey>
+            
+        </data>
+    </T3locallang>

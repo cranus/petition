@@ -1,0 +1,25 @@
+plugin.tx_petition {
+	view {
+		templateRootPath = {$plugin.tx_petition.view.templateRootPath}
+		partialRootPath = {$plugin.tx_petition.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_petition.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_petition.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_petition._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-petiton .petitionsListTable .row{clear: both;}
+        .tx-petiton .petitionsListTable .cell{float: left; width: 32%;}
+        .tx-petiton label.hidden{display: none;}
+)
