@@ -28,7 +28,7 @@
                     </settings.flexform.petition>
                     <settings.flexform.fromMail>
                         <TCEforms>
-                            <label>LLL:EXT:petition/Resources/Private/Language/locallang_db.xml:tx_petition_flexform_frommail</label>
+                            <label>LLL:EXT:petition/Resources/Private/Language/locallang_db.xml:tx_petition_flexform_fromemail</label>
                             <config>
                                 <type>input</type>
                                 <size>10</size>
