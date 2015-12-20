@@ -64,7 +64,7 @@ $TCA['tx_petition_domain_model_petition'] = array(
 		'crdate' => 'crdate',
 		'cruser_id' => 'cruser_id',
 		'dividers2tabs' => TRUE,
-
+                'petitionsentries' => 'petitionsentries',
 		'versioningWS' => 2,
 		'versioning_followPages' => TRUE,
 		'origUid' => 't3_origuid',
